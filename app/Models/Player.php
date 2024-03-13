@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Player extends Model
 {
-    protected $fillable = ['nickname', 'victories', 'matches'];
+    protected $fillable = ['nickname', 'victories', 'matches', 'image'];
     use HasFactory;
 }
